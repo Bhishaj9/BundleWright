@@ -11,3 +11,4 @@ build/
 
 # local bundles built while testing
 /_out/
+uv.lock
