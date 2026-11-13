@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+*.tar.gz
+*.sha256
+
+# local bundles built while testing
+/_out/
