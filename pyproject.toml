@@ -9,7 +9,7 @@ description = "Build a deployable, self-verifying release bundle (source + compo
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "bundlewright authors" }]
+authors = [{ name = "Gaurav Vashistha", email = "gaurav.vashistha09@gmail.com" }]
 keywords = ["release", "bundle", "deploy", "docker-compose", "packaging", "checksums"]
 classifiers = [
   "Environment :: Console",
@@ -19,6 +19,15 @@ classifiers = [
   "Topic :: Software Development :: Build Tools",
 ]
 dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/Bhishaj9/BundleWright"
+Repository = "https://github.com/Bhishaj9/BundleWright"
+Issues = "https://github.com/Bhishaj9/BundleWright/issues"
+Changelog = "https://github.com/Bhishaj9/BundleWright/blob/main/CHANGELOG.md"
 
 [project.scripts]
 bundlewright = "bundlewright.cli:main"

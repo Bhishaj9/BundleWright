@@ -1,5 +1,9 @@
 # bundlewright
 
+[![ci](https://github.com/Bhishaj9/BundleWright/actions/workflows/ci.yml/badge.svg)](https://github.com/Bhishaj9/BundleWright/actions/workflows/ci.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](pyproject.toml)
+
 Build a **deployable, self-verifying release bundle** from a repository: source
 context, `docker-compose.yml`, optional observability stack, embedded
 credentials, launchers, manifest, `SHA256SUMS`, and a `.tar.gz` whose size and

@@ -2,6 +2,10 @@
 name: bundlewright
 description: Build a deployable, self-verifying release bundle (source + docker-compose + optional observability + embedded credentials + launchers + SHA256SUMS + .tar.gz) from any repository, and verify it. Use when asked to package, bundle, release, hand off a deployable artifact, or when a bundle shipped with a wrong model/location, a failing checksum, or a launcher that would not run.
 argument-hint: --version <vX.Y.Z> --image-tag <repo:tag> [--location <region>] [--live-location <region>]
+license: MIT
+metadata:
+  author: Gaurav Vashistha <gaurav.vashistha09@gmail.com>
+  version: "1.0.0"
 ---
 
 # bundlewright

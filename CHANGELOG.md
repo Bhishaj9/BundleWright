@@ -1,6 +1,12 @@
 # Changelog
 
-## 1.0.0
+## Unreleased
+
+- CI: self-test on Python 3.9 / 3.12 / 3.13, pytest, sdist + wheel build.
+- `SECURITY.md`, `CONTRIBUTING.md`, `.editorconfig`.
+- Packaging metadata: project URLs, `dev` extra.
+
+## 1.0.0 — 2026-11-14
 
 First standalone release, extracted from the Decrypt Talent internal packager.
 
